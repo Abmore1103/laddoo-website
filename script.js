@@ -1,5 +1,6 @@
-function order(product) {
-  alert("You selected " + product + ". Order form coming next!");
+function order(packageName) {
+  window.location.href =
+    "PASTE_YOUR_GOOGLE_FORM_LINK_HERE?package=" + encodeURIComponent(packageName);
 }
 
 function searchProduct() {
